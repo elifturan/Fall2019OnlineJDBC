@@ -69,6 +69,6 @@ public class BasicTest {
         resultSet.close();
         statement.close();
         connection.close();
-
+        System.out.println("Hello");
     }
 }
